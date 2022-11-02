@@ -14,7 +14,8 @@
     background-image: url(bg.jpg);
     height: 925px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    
 }
 
 .header-logo{
@@ -86,7 +87,7 @@
 .container_main{
     position: relative;
     top: 280px;
-    margin: 0px 630px;
+    margin: 0px 32%;
 }
 
 .cover-bottom{
@@ -101,14 +102,14 @@
     background-image: url(bg2.jpg);
     height: 925px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .about{
     position: relative;
     top: 30px;
     /* top | right | bottom | left */
-    margin: 0 100px 0 1200px;
+    margin: 0 5% 0 60%;
     font-size: 40px;
 }
 
@@ -116,38 +117,47 @@
     background-image: url(bg3.jpg);
     height: 925px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .stats{
     display: flex;
+    justify-content: center;
 }
 
 .viewers{
     position: relative;
     color: white;
     text-align: center;
-    font-size: 35px;
-    top: 85px;
-    left: 10px;
+    font-size: 24px;
+    top: 2%;
+    margin-right: 16%;
+    margin-top: 7%;
+    
+    padding-left: 3%;
+    /* left: 4%; */
 }
 
 .cars{
     position: relative;
     color: white;
     text-align: center;
-    font-size: 35px;
-    top: 380px;
-    left: 130px;
+    font-size:24px;
+    top: 45%;
+    margin-right: 20%;
+    margin-top: 18%;
+    /* left: 10%; */
 }
 
 .top{
     position: relative;
     color: white;
     text-align: center;
-    font-size: 35px;
-    top: 680px;
-    left: 367px;
+    font-size: 24px;
+    top: 75%;
+    margin-top: 29%;
+    margin-right: 5%;
+    /* left: 20%; */
 }
 
 .ending{
